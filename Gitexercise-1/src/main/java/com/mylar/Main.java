@@ -5,6 +5,10 @@ package com.mylar;
 public class Main {
     static void main() {
         Helloer helloer = new Helloer();
-        helloer.hello();
+
+        String name = "mylar";
+
+        helloer.hello(name);
+
     }
 }
